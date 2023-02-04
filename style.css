@@ -1,0 +1,22 @@
+body {
+    background-color: #dcdcdc;
+    overflow: hidden;
+}
+button {
+    cursor: pointer;
+}
+body *:not(.importantStuff) {
+    font-size: 30px;
+    white-space: pre;
+}
+#AdisplayDiv1::before {
+    content: "A: ";
+}
+#firstButton1MaybeIdk::before {
+    content: "Upgrade 1st A generator, Costs ";
+}
+.importantStuff {
+    position: absolute;
+    right: 0px;
+    white-space: nowrap;
+}
